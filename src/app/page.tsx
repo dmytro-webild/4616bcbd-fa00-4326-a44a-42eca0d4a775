@@ -19,7 +19,7 @@ export default function LandingPage() {
       borderRadius="rounded"
       contentWidth="mediumLarge"
       sizing="largeSmall"
-      background="grid"
+      background="circleGradient"
       cardStyle="inset"
       primaryButtonStyle="diagonal-gradient"
       secondaryButtonStyle="layered"
@@ -43,7 +43,7 @@ export default function LandingPage() {
         <HeroBillboard
           title="Exclusive Fashion Redefined"
           description="Discover curated collections designed for those who appreciate timeless elegance and exceptional craftsmanship. Each piece tells a story of luxury and exclusivity."
-          background={{ variant: "grid" }}
+          background={{ variant: "sparkles-gradient" }}
           tag="New Collection"
           tagIcon={Sparkles}
           tagAnimation="slide-up"
@@ -159,7 +159,7 @@ export default function LandingPage() {
           description="Be the first to discover new collections, exclusive previews, and special events curated for our community."
           tagIcon={Mail}
           tagAnimation="slide-up"
-          background={{ variant: "grid" }}
+          background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
           imageSrc="http://img.b2bpic.net/free-photo/pretty-blonde-woman-with-wavy-hair-dressed-skirt-light-blouse-white-jacket-sits-chair_197531-33594.jpg"
           imageAlt="Luxury fashion lifestyle"
